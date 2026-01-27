@@ -1,0 +1,21 @@
+# Robots.txt untuk Panduan Perawatan Bayi
+# Mengizinkan semua search engine untuk crawl semua halaman
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://panduanperawatanbayi.com/sitemap.xml
+
+# Crawl-delay untuk menghindari server overload
+Crawl-delay: 10
+
+# Khusus untuk Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+# Khusus untuk Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 10
